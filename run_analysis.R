@@ -106,4 +106,4 @@ names(tidyData)<-gsub("gravity", "Gravity", names(tidyData))
 
 tidy_Data <- ddply(tidyData, c("subject", "activity"), numcolwise(mean))
 
-write.table(tidy_Data, file = "tidy_Data.txt")
+write.table(tidy_Data, file = "tidy_Data.txt", row.name = FALSE)
