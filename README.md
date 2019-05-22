@@ -17,3 +17,5 @@ From the data set in step 4, creates a second, independent tidy data set with th
 More details are explained in "run_analysis.R ".
 
 tidy_Data.txt is the exported final data after going through all the codes described above.
+
+Code Book: https://github.com/SaraCLU/Coursera---Getting-and-Cleaning-Data-Week4/blob/master/Code%20Book
